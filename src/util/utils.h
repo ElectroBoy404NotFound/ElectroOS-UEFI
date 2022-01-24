@@ -3,11 +3,9 @@
 #include "stdint.h"
 
 #include "../graphics/print.h"
-#include "../memory/paging/PageFrameAllocator.h"
 
 struct UtilClasses {
     Print print;
-    PageFrameAllocator pageFrameAlloc;
 };
 
 const char* intToString(int64_t value);
